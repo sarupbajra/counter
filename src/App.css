@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.counter-container {
+  text-align: center;
+  margin-top: 100px;
+}
+.count-display{
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.increment-button{
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.counter-box {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
